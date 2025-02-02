@@ -9,14 +9,14 @@ git clone https://github.com/caelaintrtas/receipt-processor.git
 cd receipt-processor
 ```
 
-###Run with Docker
+### Run with Docker
 ```
 docker build -t receipt-processor .
 docker run -p 8000:8000 receipt-processor
 ```
 The API will be accessible at http://127.0.0.1:8000/ for making requests.
 
-##Running Tests
+## Running Tests
 To run tests inside the Docker container:
 ```
 docker exec -it <container_id> pytest
