@@ -21,7 +21,3 @@ To run tests inside the Docker container:
 ```
 docker exec -it <container_id> pytest
 ```
-To run tests locally:
-```
-pytest
-```
