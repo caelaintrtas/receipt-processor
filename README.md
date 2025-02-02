@@ -1,5 +1,5 @@
 # Receipt Processor Web Service
-This is a FastAPI-based web service that proccesses receipts and awards points.
+This is a Python-based FastAPI web service that processes receipts and awards points.
 
 ## Setup Instructions
 
